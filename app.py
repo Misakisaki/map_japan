@@ -1,6 +1,15 @@
 import streamlit as st
-import folium
+import pya3rt
+import streamlit as st
 from streamlit_folium import folium_static
+
+apikey = "ZZ9CS9Casc3EzRmRVWGgdTEbhzRLFjZs"
+
+client = pya3rt.TalkClient(apikey)
+
+st.title("Chatbot with streamlit")
+st.subheader("メッセージを入力してから送信をタップしてください")
+message = st.text_input("メッセージ")
 
 def main():
     st.title('日本の詳細な地図表示アプリ')
