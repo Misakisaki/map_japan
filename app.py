@@ -11,6 +11,10 @@ st.title("Chatbot with streamlit")
 st.subheader("メッセージを入力してから送信をタップしてください")
 message = st.text_input("メッセージ")
 
+
+
+
+
 def main():
     st.title('日本の詳細な地図表示アプリ')
 
