@@ -1,5 +1,6 @@
 import streamlit as st
 import pya3rt
+import folium
 from streamlit_folium import folium_static
 
 apikey = "ZZ9CS9Casc3EzRmRVWGgdTEbhzRLFjZs"
