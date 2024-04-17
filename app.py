@@ -14,7 +14,6 @@ message = st.text_input("メッセージ")
 
 
 
-
 def main():
     st.title('日本の詳細な地図表示アプリ')
 
