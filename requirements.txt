@@ -1,2 +1,2 @@
 pya3rt==1.1
-streamit==1.24.1
+streamit==1.33.0
